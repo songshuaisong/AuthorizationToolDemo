@@ -325,7 +325,8 @@ namespace WindowsFormsApplication
                     this.Opacity -= 0.02;
                     System.Threading.Thread.Sleep(20);
                 }
-                Application.Exit();
+                //Application.Exit();   
+                this.Hide();
             }
             return true;
         }
